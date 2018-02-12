@@ -11,10 +11,12 @@ How does it work?
 
 2  copy the jar file to $SPARK_HOME/jars/
 
-3  add following lines to spark-defaults.conf under $SPARK_HOME/conf/
+3  add following 2 lines to spark-defaults.conf under $SPARK_HOME/conf/
 username/password can be defined in the second line
 
+
 spark.ui.filters com.neolitec.examples.BasicAuthenticationFilter
+
 spark.com.neolitec.examples.BasicAuthenticationFilter.params username=spark_admin,password=admin_spark
 
 
