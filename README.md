@@ -17,7 +17,7 @@ username/password can be defined in the second line
 
 spark.ui.filters com.neolitec.examples.BasicAuthenticationFilter
 
-spark.com.neolitec.examples.BasicAuthenticationFilter.params username=spark_admin,password=admin_spark
+spark.com.neolitec.examples.BasicAuthenticationFilter.params username=admin,password=admin
 
 
 
